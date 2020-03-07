@@ -1,0 +1,214 @@
+/*
+Theme Name: Ultra Lite
+Theme URI: https://wpoperation.com/themes/ultra-lite/
+Template: ultra-seven
+Author: WPoperation
+Author URI: http://wpoperation.com/
+License:      GNU General Public License v3 or later
+License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+Description: Create flexible news,magazine,blog and travel diaries with easy drag & drop page builder within minutes. It's now easy to share your ideas through your posts without any hassle.
+Tags: right-sidebar,left-sidebar,custom-background, custom-menu, featured-images, threaded-comments, translation-ready,custom-logo, footer-widgets,blog,post-formats,sticky-post,theme-options,news
+Version: 1.0.3
+Text Domain:  ultra-lite 
+
+
+Ultra Lite is a WordPress Theme, 
+Copyright (C) 2019, WPoperation
+Ultra Lite is distributed under the terms of the GNU GPL
+
+This program is free software, you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+http://www.gnu.org/licenses/gpl-3.0.txt
+
+
+*/
+body, button, input, select, optgroup, textarea {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6,
+h2.widget-title, 
+.ultra-related-wrapper.slide .related-title, .related.products h2 {
+    font-weight: 600;
+}
+.ultra-custom-header.fixed {
+    position: fixed;
+    z-index: 99999;
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    background: #fff;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+}
+.current-date{
+    color: #fff;
+}
+
+.elementor-widget-wrap .ultra-block-wrapper{
+    margin: 0;
+}
+
+.ultra-block-wrapper .single-post .post-thumb .cat-wrap {
+    left: unset;
+    right: 10px;
+}
+
+.ultra-block-wrapper.grid-post-list.layout-1 .single-post{
+    margin-bottom: 35px;
+}
+
+.home .post-author img {
+    display: block;
+    
+}
+
+.post-meta span.author a:before{
+    content: none !important;
+}
+.post-meta .post-author{
+    margin: 0 !important;
+}
+
+.post-meta span.author > a{
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.post-meta .post-author .author{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.post-meta .post-author .author-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+}
+.post-meta .post-author .author-img img{
+	border-radius: 50%;
+}
+.widget_ultra_seven_posts_list .post-meta .post-author .author-img{
+    height: 15px;
+    width: 15px;
+}
+/* Ticker */
+.ticker-item .date{
+	margin-right: 15px;
+}
+.arrow-vertical .ticker-wrap button.slick-arrow {
+    top: -24px;
+    z-index: 9999;
+}
+span.post-date:before {
+    position: absolute;
+    content: '';
+    font-family: FontAwesome;
+    font-size: 12px;
+    left: 16px;
+    top: 42px;
+}
+span.post-date:before {
+    content: '\f017';
+}
+span.post-date {
+    display: block;
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+#ultra-go-top{
+	border-radius: none;
+    -webkit-box-shadow: 2px 1px 7px 0px rgba(27, 24, 24, 0.28);
+    box-shadow: 2px 1px 7px 0px rgba(27, 24, 24, 0.28);
+}
+.site-footer{
+    margin-top: 30px;
+}
+.site-footer .footer-widgets-wrap {
+    padding: 25px 0;
+}
+
+.blog .secondary {
+    margin-top: 73px;
+}
+
+.box-search-content .btn-search {
+    padding: 0 !important;
+    height: 0 !important;
+    color: #fff !important;
+}
+.box-search-content .btn-search i {
+	font-size: 20px !important;
+}
+
+.header-right .wpopea-hamburger {
+    height: 20px;
+    padding-left: 2px;
+    width: 20px;
+}
+.header-right  .wpopea-menu-toggle .wpopea-hamburger .wpopea-hamburger-box .wpopea-hamburger-inner:after {
+	bottom: -5px;
+}
+.header-right  .wpopea-menu-toggle .wpopea-hamburger .wpopea-hamburger-box .wpopea-hamburger-inner:before {
+	top: -5px;
+}
+.header-right  .wpop-search-box.wpop-search-style-5 .btn-search i{
+	font-size: 14px;
+}
+
+
+/*Preloader18*/
+
+#loading18 #loading-center {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#loading18 #loading-center-absolute {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 100px;
+    width: 50px;
+    margin-top: -50px;
+    margin-left: -25px;
+}
+#loading18 .object {
+    width: 50px;
+    height: 8px;
+    margin-bottom: 15px;
+    background-color: #e54e54;
+    -webkit-animation: animate18 0.8s infinite;
+    animation: animate18 0.8s infinite;
+}
+#loading18 #object_two {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+#loading18 #object_four {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+@-webkit-keyframes animate18 {
+    50% {
+        -ms-transform: translate(50%, 0);
+        -webkit-transform: translate(50%, 0);
+        transform: translate(50%, 0);
+    }
+}
+@keyframes animate {
+    50% {
+        -ms-transform: translate(50%, 0);
+        -webkit-transform: translate(50%, 0);
+        transform: translate(50%, 0);
+    }
+}

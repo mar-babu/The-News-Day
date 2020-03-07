@@ -1,0 +1,11 @@
+=== v1.0.3 ===
+- Fixed sanitization issues 
+
+=== v1.0.2 ===
+- Minor bugs fixed
+
+=== v1.0.1 ===
+- Minor bugs fixed
+
+=== v1.0.0 ===
+- Initial Release
